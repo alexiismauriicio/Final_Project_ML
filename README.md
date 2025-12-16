@@ -3,7 +3,7 @@
 ## Description
 Streamlit app to:
 * Explore the Telco Customer Churn dataset (EDA).
-* Compare several ML models (Logistic Regression, Random Forest, CatBoost, Voting Soft…).
+* Compare several ML models (Logistic Regression, CatBoost, Voting Soft…).
 * Make an individual churn prediction for a customer.
 * See simple recommendations to reduce churn when the prediction is Yes.
 ---
