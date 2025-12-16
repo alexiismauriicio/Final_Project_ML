@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder, RobustScaler
 
-# Pipeline numérico (igual que en tu notebook)
+# Pipeline numérico 
 num_pipeline = Pipeline([
     ('imputer', SimpleImputer(strategy="median")),
     ('rbst_scaler', RobustScaler()),
